@@ -289,5 +289,5 @@ public enum LangEntry
     WINDOW,
     WATER,
     STAIRS, 
-
+    TREE_TRUNK,
 }

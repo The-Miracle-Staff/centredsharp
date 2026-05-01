@@ -76,6 +76,7 @@ public class MapManager
     public bool ShowWater = true;
     public bool ShowWindow = true;
     public bool ShowFoliage = true;
+    public bool ShowTreeTrunk = true;
     public bool ShowRoof = true;
     public bool ShowWall = true;
     public bool ShowSurface = true;
@@ -874,7 +875,7 @@ public class MapManager
         // Outlands specific
         // if ((data.Flags & TileFlag.NoDraw) != 0)
         //     return false;
-        if((!ShowWall && data.IsWall) || (!ShowSurface && data.IsSurface) || (!ShowFoliage && data.IsFoliage) || (!ShowRoof && data.IsRoof) || (!ShowWindow && data.IsWindow) || (!ShowWater && data.IsWet) || (!ShowStairs && data.IsBridge) )  
+        if((!ShowWall && data.IsWall) || (!ShowSurface && data.IsSurface) || (!ShowFoliage && data.IsFoliage) || (!ShowTreeTrunk && data.Name.Contains("tree", StringComparison.OrdinalIgnoreCase)) || (!ShowRoof && data.IsRoof) || (!ShowWindow && data.IsWindow) || (!ShowWater && data.IsWet) || (!ShowStairs && data.IsBridge) )  
             return false;
         
         if (!ShowNoDraw)

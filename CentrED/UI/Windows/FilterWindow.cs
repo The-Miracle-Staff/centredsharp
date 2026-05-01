@@ -80,6 +80,8 @@ public class FilterWindow : Window
 
 
         ImGui.Checkbox(LangManager.Get(STAIRS), ref CEDGame.MapManager.ShowStairs);
+        ImGui.SameLine();
+        ImGui.Checkbox(LangManager.Get(TREE_TRUNK), ref CEDGame.MapManager.ShowTreeTrunk);
 
         if (ImGui.BeginChild("Filters"))
         {

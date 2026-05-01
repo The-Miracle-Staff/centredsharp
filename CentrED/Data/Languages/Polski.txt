@@ -278,3 +278,4 @@ STRENGTH=Siła
 EDGE_FALLOFF=Zanikanie krawędzi
 FALLOFF_START=Początek zanikania
 FALLOFF_START_TOOLTIP=Procent promienia, od którego zaczyna się zanikanie
+TREE_TRUNK=Pien drzewa
