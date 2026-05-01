@@ -278,4 +278,4 @@ STRENGTH=Síla
 EDGE_FALLOFF=Útlum okrajů
 FALLOFF_START=Začátek útlumu
 FALLOFF_START_TOOLTIP=Procento poloměru, kde začíná útlum
-TREE_TRUNK=Kmen stromu
+TREE_TRUNK=Tree
