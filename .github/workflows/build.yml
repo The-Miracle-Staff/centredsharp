@@ -19,6 +19,9 @@ env:
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ${{ matrix.runner }}
